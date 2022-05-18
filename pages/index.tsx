@@ -1,3 +1,4 @@
+import PageDescription from '@/components/PageDescription';
 import type { NextPage } from 'next';
 
 interface Posts {
@@ -22,7 +23,7 @@ export async function getStaticProps() {
 }
 
 const Home: NextPage<{ posts: Array<Posts> }> = ({ posts }) => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return <PageDescription title="Latest" description="A blog created with Next.js and Tailwind.css" />;
 };
 
 export default Home;
