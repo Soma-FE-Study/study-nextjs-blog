@@ -1,4 +1,4 @@
-import formatDate from '@/utils/formatDate';
+import formatDate from '@/lib/utils/formatDate';
 import Link from 'next/link';
 import { ReactNode } from 'react';
 import Tag from './Tag';

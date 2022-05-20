@@ -1,4 +1,4 @@
-import kebabCase from '@/utils/kebabCase';
+import kebabCase from '@/lib/utils/kebabCase';
 import Link from 'next/link';
 
 type TagProps = {
