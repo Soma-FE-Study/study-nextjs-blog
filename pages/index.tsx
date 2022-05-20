@@ -1,7 +1,7 @@
 import BlogPostPreview from '@/components/BlogPostPreview';
 import PageDescription from '@/components/PageDescription';
 import Tag from '@/components/Tag';
-import formatDate from '@/utils/formatDate';
+import formatDate from '@/lib/utils/formatDate';
 import type { NextPage } from 'next';
 import Link from 'next/link';
 
